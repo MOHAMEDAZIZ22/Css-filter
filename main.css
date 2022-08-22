@@ -1,0 +1,57 @@
+ body {
+     background-color: black;
+     /* margin-left: 35%; */
+     display: flex;
+     font-size: xx-large;
+     /* overflow: auto; */
+     color: rgb(17, 255, 40);
+ }
+
+ #myimg {
+     filter: none;
+ }
+
+ #myimg1 {
+     filter: brightness(250%);
+ }
+
+ #myimg2 {
+     filter: grayscale(100%);
+ }
+
+ #myimg3 {
+     filter: blur(10px);
+ }
+
+ #myimg4 {
+     filter: saturate(500%);
+ }
+
+ #spider {
+     filter: drop-shadow(16px 16px 20px green)
+ }
+
+ #gif {
+     filter: contrast(200%);
+     /* filter: grayscale(90%); */
+ }
+
+ #myimg5 {
+     filter: sepia(90%);
+
+ }
+
+ #myimg6 {
+     filter: opacity(50%);
+
+ }
+ #myimg7{
+    filter: hue-rotate(90deg);
+    /* filter: hue-rotate(-0.25turn); */
+    /* filter: hue-rotate(3.14rad); */
+ }
+ 
+ #video {
+
+     filter: invert(75%);
+ }
